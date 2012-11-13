@@ -92,7 +92,6 @@ $(function () {
         
         $(opc.destino).html(opc.loadingHtml);
     	
-    	console.dir(location)
     	
     	
     	
