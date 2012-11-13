@@ -97,7 +97,7 @@ $(function () {
     	
 		$.ajax({
             type: 'get',
-            url: urlAjax,
+            url: 'http://www.piratecloud.tv/'+urlAjax,
             dataType: 'json',
             success: function(data){
             	console.dir(data);
