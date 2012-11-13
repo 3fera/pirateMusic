@@ -9,7 +9,7 @@
 	<preference name="phonegap-version" value="2.0.0"/>
 	
 	<description>
-		Aplicación para estacionar en zonas de pago.
+		Escuchar musica
 	</description>
 
 	<author href="http://www.3fera.com"
@@ -23,7 +23,6 @@
 	
 	<preference name="android-minSdkVersion" value="7"/>
 
-	<preference name="orientation" value="portrait"/>
 	
 	
 	<!--<gap:plugin name="phonegap-status-bar-notification"/>-->
