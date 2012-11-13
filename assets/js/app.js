@@ -93,7 +93,7 @@ $(function () {
         $(opc.destino).html(opc.loadingHtml);
     	
     	
-    	
+    	console.log('Peticion a: '+'http://www.piratecloud.tv/'+urlAjax)
     	
 		$.ajax({
             type: 'get',
@@ -118,7 +118,7 @@ $(function () {
 	        console.log("click en cancion");
 	        $.ajax({
 	            type: 'get',
-	            url: "http://www.piratecloud.tv/m/play/"+$(this).attr("data-id"),
+	            url: "http://piratecloud.tv/m/play/"+$(this).attr("data-id"),
 	            dataType: 'json',
 	            success: function(data){
 	            	console.dir(data);
