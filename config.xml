@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.tresfera.piratemusic"
+	version 	= "0.0.1">
+
+	<name>pirateMusic</name>
+	
+	<preference name="phonegap-version" value="2.0.0"/>
+	
+	<description>
+		Aplicación para estacionar en zonas de pago.
+	</description>
+
+	<author href="http://www.3fera.com"
+		email="info@3fera.com">
+		3fera
+	</author>
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+
+	
+	<preference name="android-minSdkVersion" value="7"/>
+
+	<preference name="orientation" value="portrait"/>
+	
+	
+	<!--<gap:plugin name="phonegap-status-bar-notification"/>-->
+	
+</widget> 
