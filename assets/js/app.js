@@ -118,7 +118,7 @@ $(function () {
 	        console.log("click en cancion");
 	        $.ajax({
 	            type: 'get',
-	            url: "/m/play/"+$(this).attr("data-id"),
+	            url: "http://www.piratecloud.tv/m/play/"+$(this).attr("data-id"),
 	            dataType: 'json',
 	            success: function(data){
 	            	console.dir(data);
@@ -166,7 +166,7 @@ $(function () {
 				var url=location1.substring(location1.lastIndexOf(opc.urlInit)+ opc.urlInit.length);
 				
 				
-				console.log("url: "+url)
+				console.log("url: "+location1)
 				return location1;
 	    	}
 	    	else
